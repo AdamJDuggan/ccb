@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import Landing from "./components/Landing";
+import Modal from "./components/Modal";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Sessions from "./components/Sessions";
+import Team from "./components/Team";
+import Vision from "./components/Vision";
+import Contact from "./components/Contact";
 
-function App() {
+const App = () => {
+  const [modal, setModal] = React.useState({
+    show: false,
+    message: "Thank you for your message. We will respond shortly",
+  });
+  const onClose = () => setModal((modal) => ({ ...modal, show: false }));
+
+  const submitForm = (message) => {
+    setModal(() => ({
+      show: true,
+      message: message ? message : modal.message,
+    }));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Modal message={modal.message} show={modal.show} onClose={onClose} />
+      <Navbar />
+      <Landing />
+      <About />
+      <Team />
+      <Sessions />
+      <Vision />
+      <Contact submitForm={submitForm} />
+    </>
   );
-}
-
+};
 export default App;
