@@ -7,7 +7,7 @@ export default function Sessions() {
   return (
     <div id="sessions" className="flex align-center justify-center py-20 px-6">
       <div className="max-w-6xl text-left">
-        <h2 className="text-5xl text-gray-700 font-bold mb-12">Sessions</h2>
+        <h2 className="text-5xl text-gray-700 font-bold mb-20">Sessions</h2>
 
         <div className="about-content flex flex-col lg:flex-row align-center">
           <span className="mt-2 mb-12 lg:mt-0">

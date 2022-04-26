@@ -13,7 +13,7 @@ export default function Team() {
       className="flex align-center justify-center py-20 px-6 bg-gray-100"
     >
       <div className="max-w-7xl text-left">
-        <h2 className="text-5xl text-gray-700 font-bold mb-16">Our Team</h2>
+        <h2 className="text-5xl text-gray-700 font-bold mb-20">Our Team</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           {/* Card 1*/}
           <div className="rounded border-2 bg-white p-4 flex flex-col md:flex-row lg:flex-col">

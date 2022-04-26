@@ -12,7 +12,7 @@ export default function About() {
       className="flex align-center justify-center pt-20 pb-12 px-6"
     >
       <div className="max-w-6xl text-left">
-        <h2 className="text-5xl text-gray-700 font-bold mb-16">About</h2>
+        <h2 className="text-5xl text-gray-700 font-bold mb-20">About</h2>
 
         <div className="about-content flex flex-col lg:flex-row lg:items-start">
           <span className="mb-16 lg:mb-0">
@@ -21,8 +21,8 @@ export default function About() {
           <div className="lg:ml-24">
             <li className="text-1xl mb-8 ml-4">
               Community Counselling Brighton aims to offer equal access to
-              counselling for people who would otherwise not be able to talking
-              therapies.
+              counselling for people who would not otherwise not be able to
+              talking therapies.
             </li>
             <li className="text-1xl mb-8 ml-4">
               Currently, the project is partnering with{" "}
@@ -44,7 +44,7 @@ export default function About() {
               >
                 Gill Daking
               </a>{" "}
-              and
+              and{" "}
               <a
                 href="https://patriciahide.co.uk/"
                 target="_blank"

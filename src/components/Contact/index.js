@@ -98,7 +98,7 @@ export default function Contact({ submitForm }) {
     <section id="contact">
       <div className="flex align-center justify-center pt-20 pb-8 px-6 bg-gray-100">
         <div className="max-w-6xl text-left">
-          <h2 className="text-5xl text-gray-700 font-bold mb-12">Contact</h2>
+          <h2 className="text-5xl text-gray-700 font-bold mb-16">Contact</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 mb-20">
             <div>
               <h3 className="text-1xl text-gray-700 mb-10">

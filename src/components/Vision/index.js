@@ -16,7 +16,7 @@ export default function Vision() {
       className="flex align-center justify-center py-20 px-6 text-white purple"
     >
       <div className="max-w-6xl">
-        <h2 className="text-5xl font-bold mb-12">Vision</h2>
+        <h2 className="text-5xl font-bold mb-20">Vision</h2>
         <p className="text-2xl mb-8 text-left">
           Our goal is to develop a network of free counselling services across
           Brighton & Hove. We will be working with food-banks to offer free and
