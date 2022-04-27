@@ -1,5 +1,7 @@
 // React
 import React from "react";
+// Styles
+import * as styles from "./index.module.css";
 
 export default function Landing() {
   return (
