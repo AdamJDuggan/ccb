@@ -53,7 +53,7 @@ export default function Contact({ submitForm }) {
     event.preventDefault();
     if (validate()) {
       send(
-        "service_2auan4a",
+        "service_yrugwc3",
         "template_jbpfu2a",
         {
           name: data.name.value,
@@ -125,6 +125,7 @@ export default function Contact({ submitForm }) {
 
               <div className="google-maps">
                 <iframe
+                  title="Google map of St Cuthmans Church"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10081.684888221147!2d-0.11715123012687892!3d50.82336127782051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585e8e99f11d9%3A0x47e92adf6c842493!2sSt%20Cuthmans%20Church!5e0!3m2!1sen!2suk!4v1646240344714!5m2!1sen!2suk"
                   width="600"
                   height="450"
@@ -233,6 +234,7 @@ export default function Contact({ submitForm }) {
         Built by Adam Duggan{" "}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://github.com/AdamJDuggan"
           className="mx-2 cursor-pointer underline"
         >

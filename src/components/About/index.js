@@ -1,7 +1,5 @@
 // React
 import React from "react";
-// Styles
-import * as styles from "./index.module.css";
 // Assets
 import Logo from "../../images/logo.jpg";
 
@@ -29,6 +27,7 @@ export default function About() {
               <a
                 href="http://www.stcuthmanswhitehawk.org/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
                 St Cuthman’s Church
@@ -40,14 +39,16 @@ export default function About() {
               <a
                 href="https://gillsnowcounselling.co.uk/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
-                Gill Daking
+                Gill Dakin
               </a>{" "}
               and{" "}
               <a
                 href="https://patriciahide.co.uk/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
                 Patricia Hide{" "}
@@ -58,12 +59,13 @@ export default function About() {
               <a
                 href="https://thewhitehawk.foodbank.org.uk/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
                 Whitehawk Foodbank
               </a>{" "}
               with a view to expanding the service into the local area once
-              established. and and are open to{" "}
+              established.
             </li>
             <li className="text-1xl mb-8 ml-4">
               Please use the{" "}

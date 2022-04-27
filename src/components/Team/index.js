@@ -41,6 +41,7 @@ export default function Team() {
               <a
                 href="https://www.bacp.co.uk/search/Register?q=383010"
                 target="_blank"
+                rel="noopener noreferrer"
                 alt="BACP registration"
               >
                 <img src={GillReg} className="w-36 mt-12" alt="Gill" />
@@ -73,6 +74,7 @@ export default function Team() {
               <a
                 href="https://www.bacp.co.uk/search/Register?q=383543"
                 target="_blank"
+                rel="noopener noreferrer"
                 alt="BACP registration"
               >
                 <img src={PatReg} className="w-36 mt-12" alt="Pat" />
