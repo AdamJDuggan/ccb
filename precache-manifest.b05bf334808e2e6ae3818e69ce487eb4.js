@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "94c2bbceeaf890a108d2",
-    "url": "/static/css/main.083a6b8f.chunk.css"
+    "revision": "6ef9278bb8d859a75b72",
+    "url": "/static/css/main.1cee4622.chunk.css"
   },
   {
-    "revision": "94c2bbceeaf890a108d2",
-    "url": "/static/js/main.94c2bbce.chunk.js"
+    "revision": "6ef9278bb8d859a75b72",
+    "url": "/static/js/main.6ef9278b.chunk.js"
   },
   {
-    "revision": "41211fcf000cf3a9973c",
-    "url": "/static/js/1.41211fcf.chunk.js"
+    "revision": "8c98aab82769540efb62",
+    "url": "/static/js/1.8c98aab8.chunk.js"
   },
   {
-    "revision": "9a7e189cf434a3a18a09",
-    "url": "/static/js/2.9a7e189c.chunk.js"
+    "revision": "60e27ce43f0c4f882ff3",
+    "url": "/static/js/2.60e27ce4.chunk.js"
   },
   {
-    "revision": "39a7286a869c5b2ec7f4",
-    "url": "/static/js/runtime~main.39a7286a.js"
+    "revision": "145d317933025b8555fb",
+    "url": "/static/js/runtime~main.145d3179.js"
   },
   {
     "revision": "f500437eb424fc5bd0448ba17530088a",
@@ -44,7 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/pat-reg.94b79d9a.webp"
   },
   {
-    "revision": "07450205dc9884c2b7c0fd3f54adcf1f",
+    "revision": "9ca53c4a9d9ad6ff8c0bfb0ca1092118",
+    "url": "/static/media/sunset2.9ca53c4a.jpg"
+  },
+  {
+    "revision": "521ef23953bc5dd581a66ba22e77af0c",
     "url": "/index.html"
   }
 ];
