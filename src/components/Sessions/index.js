@@ -9,19 +9,20 @@ export default function Sessions() {
       <div className="max-w-6xl text-left">
         <h2 className="text-5xl text-gray-700 font-bold mb-20">Sessions</h2>
 
-        <div className="about-content flex flex-col lg:flex-row align-center">
+        <div className="about-content flex flex-col items-center lg:flex-row align-center">
           <span className="mt-2 mb-12 lg:mt-0">
             <img src={PathImg} className="w-96 lg:w-auto" alt="Pathway" />
           </span>
           <div className="lg:ml-12">
             <li className="text-1xl mb-8 ml-4">
               We provide up to 20, weekly, 50-minute counselling sessions to
-              Whitehawk foodbank clients who are 18+ years old.
+              Whitehawk and Hollingdean foodbank clients who are 18+ years old.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              The counselling sessions take place while the Whitehawk Community
-              Café is running. The cafe offers foodbank clients and local
-              people, a cuppa, company, fruit and vegetables and bakery goods.
+              The counselling sessions take place while the Whitehawk and
+              Hollingdean Community cafés run. The cafés offers foodbank clients
+              and local people, a cuppa, company, fruit and vegetables and
+              bakery goods.
             </li>
             <li className="text-1xl mb-8 ml-4">
               The approach is collaborative between therapist and client,

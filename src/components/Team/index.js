@@ -57,7 +57,7 @@ export default function Team() {
             />
             <div className="mt-12 md:mt-0 lg:mt-12 md:ml-12 lg:ml-0">
               <h3 className="text-2xl text-gray-600 mb-1 font-semibold w-1/2">
-                Patricia Hide
+                Pat Hide
               </h3>
               <h5 className="mb-6 text-blue-500 font-semibold">
                 Co-founder and Counsellor

@@ -12,18 +12,18 @@ export default function About() {
       <div className="max-w-6xl text-left">
         <h2 className="text-5xl text-gray-700 font-bold mb-20">About</h2>
 
-        <div className="about-content flex flex-col lg:flex-row lg:items-start">
+        <div className="about-content flex flex-col items-center  lg:flex-row lg:items-start">
           <span className="mb-16 lg:mb-0">
             <img src={Logo} className="w-96 lg:w-auto" alt="Logo" />
           </span>
           <div className="lg:ml-24">
             <li className="text-1xl mb-8 ml-4">
-              Community Counselling Brighton aims to offer equal access to
-              counselling for people who would not otherwise not be able to
-              talking therapies.
+              Community Counselling Brighton aims to offer counselling to people
+              who would otherwise not be able to have access to talking
+              therapies.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              Currently, the project is partnering with{" "}
+              Currently the project is working in partnership with{" "}
               <a
                 href="http://www.stcuthmanswhitehawk.org/"
                 target="_blank"
@@ -32,10 +32,21 @@ export default function About() {
               >
                 St Cuthman’s Church
               </a>{" "}
-              in Whitehawk, and sits within the existing services which include
-              befriending, debt advice and food supplies.
+              in Whitehawk on Thursdays and{" "}
+              <a
+                href="http://www.stcuthmanswhitehawk.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 font-semibold cursor-pointer"
+              >
+                St Richard's Church
+              </a>{" "}
+              in Hollingdean on Monday mornings. Currently, the project is
+              partnering with in Whitehawk, and sits within the existing
+              services which include befriending, debt advice and food supplies.
             </li>
             <li className="text-1xl mb-8 ml-4">
+              Qualified counsellors Gill Dakin and Pat Hide
               <a
                 href="https://gillsnowcounselling.co.uk/"
                 target="_blank"
@@ -46,26 +57,16 @@ export default function About() {
               </a>{" "}
               and{" "}
               <a
-                href="https://patriciahide.co.uk/"
+                href="https://Patriciahide.co.uk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
-                Patricia Hide{" "}
+                Pat Hide{" "}
               </a>{" "}
-              provide session during the day to coincide with the Community
-              Café. At this time, we are offering sessions to adults (18+ years
-              old) who use the{" "}
-              <a
-                href="https://thewhitehawk.foodbank.org.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 font-semibold cursor-pointer"
-              >
-                Whitehawk Foodbank
-              </a>{" "}
-              with a view to expanding the service into the local area once
-              established.
+              currently provide sessions which run to coincide with other
+              community services provided at these venues such as foodbanks,
+              debt advice and the community cafés.
             </li>
             <li className="text-1xl mb-8 ml-4">
               Please use the{" "}

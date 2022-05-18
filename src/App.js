@@ -32,6 +32,17 @@ const App = () => {
       <Sessions />
       <Vision />
       <Contact submitForm={submitForm} />
+      <div className="p-2 text-center text-white bg-gray-700">
+        Built by Adam Duggan{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/AdamJDuggan"
+          className="mx-2 cursor-pointer underline"
+        >
+          Github
+        </a>
+      </div>
     </>
   );
 };

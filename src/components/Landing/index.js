@@ -14,7 +14,7 @@ export default function Landing() {
           Community Counselling Brighton
         </h1>
         <h2 className="text-gray-100 text-2xl md:text-4xl">
-          Equal access to counselling for all
+          Striving for equal access to counselling for all
         </h2>
 
         <div className="inline-flex mt-4"></div>

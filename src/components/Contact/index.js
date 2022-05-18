@@ -95,17 +95,18 @@ export default function Contact({ submitForm }) {
   };
 
   return (
-    <section id="contact">
-      <div className="flex align-center justify-center pt-20 pb-8 px-6 bg-gray-100">
+    <section id="contact" className="pt-20 pb-8 px-6 bg-gray-100 ">
+      <div className="flex align-center justify-center">
         <div className="max-w-6xl text-left">
-          <h2 className="text-5xl text-gray-700 font-bold mb-16">Contact</h2>
+          <h2 className="text-5xl text-gray-700 font-bold mb-20">Contact</h2>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 mb-20">
             <div>
               <h3 className="text-1xl text-gray-700 mb-10">
                 <strong>Phone:</strong>
                 <p>
                   07706 249607 (Gill Dakin)
-                  <br /> 07874 003902 (Patricia Hide){" "}
+                  <br /> 07874 003902 (Pat Hide){" "}
                 </p>
               </h3>
               <h3 className="text-1xl text-gray-700 mb-10">
@@ -123,9 +124,20 @@ export default function Contact({ submitForm }) {
                 <strong>Location:</strong>
               </h3>
 
-              <div className="google-maps">
+              <div className="google-maps mb-8">
                 <iframe
                   title="Google map of St Cuthmans Church"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10081.684888221147!2d-0.11715123012687892!3d50.82336127782051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585e8e99f11d9%3A0x47e92adf6c842493!2sSt%20Cuthmans%20Church!5e0!3m2!1sen!2suk!4v1646240344714!5m2!1sen!2suk"
+                  width="600"
+                  height="450"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+              <div className="google-maps">
+                <iframe
+                  title="Google map of St Richards Church"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10081.684888221147!2d-0.11715123012687892!3d50.82336127782051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585e8e99f11d9%3A0x47e92adf6c842493!2sSt%20Cuthmans%20Church!5e0!3m2!1sen!2suk!4v1646240344714!5m2!1sen!2suk"
                   width="600"
                   height="450"
@@ -229,17 +241,6 @@ export default function Contact({ submitForm }) {
             </form>
           </div>
         </div>
-      </div>
-      <div className="p-2 text-center text-white bg-gray-700">
-        Built by Adam Duggan{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/AdamJDuggan"
-          className="mx-2 cursor-pointer underline"
-        >
-          Github
-        </a>
       </div>
     </section>
   );
