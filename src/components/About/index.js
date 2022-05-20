@@ -46,13 +46,14 @@ export default function About() {
               services which include befriending, debt advice and food supplies.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              Qualified counsellors Gill Dakin and Pat Hide
+              Qualified counsellors
               <a
                 href="https://gillsnowcounselling.co.uk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 font-semibold cursor-pointer"
               >
+                {" "}
                 Gill Dakin
               </a>{" "}
               and{" "}

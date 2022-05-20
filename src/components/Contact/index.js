@@ -121,7 +121,7 @@ export default function Contact({ submitForm }) {
                 </p>
               </h3>
               <h3 className="text-1xl text-gray-700 mb-2">
-                <strong>Location:</strong>
+                <strong>Locations:</strong>
               </h3>
 
               <div className="google-maps mb-8">
@@ -138,7 +138,7 @@ export default function Contact({ submitForm }) {
               <div className="google-maps">
                 <iframe
                   title="Google map of St Richards Church"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10081.684888221147!2d-0.11715123012687892!3d50.82336127782051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585e8e99f11d9%3A0x47e92adf6c842493!2sSt%20Cuthmans%20Church!5e0!3m2!1sen!2suk!4v1646240344714!5m2!1sen!2suk"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=St%20Richard%20Church,%20Hollingdean+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                   width="600"
                   height="450"
                   style={{ border: "0" }}
