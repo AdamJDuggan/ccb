@@ -18,7 +18,7 @@ export default function Vision() {
       <div className="max-w-6xl">
         <h2 className="text-5xl font-bold mb-20">Vision</h2>
         <p className="text-2xl mb-8 text-left">
-          Our goal is to develop a network of free counselling services across
+          Our goal is to develop a network of counselling services across
           Brighton & Hove. We will be working with food-banks to offer free and
           low-cost therapies. Starting in Whitehawk and Hollingdean, our goal is
           to partner with local services to deliver group work programs,

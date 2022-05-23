@@ -19,10 +19,8 @@ export default function Sessions() {
               Whitehawk and Hollingdean foodbank clients who are 18+ years old.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              The counselling sessions take place while the Whitehawk and
-              Hollingdean Community cafés run. The cafés offers foodbank clients
-              and local people, a cuppa, company, fruit and vegetables and
-              bakery goods.
+              The counselling sessions take place on the day the Whitehawk and
+              Hollingdean Community cafés and foodbanks run.
             </li>
             <li className="text-1xl mb-8 ml-4">
               The approach is collaborative between therapist and client,

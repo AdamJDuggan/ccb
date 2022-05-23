@@ -23,7 +23,7 @@ export default function About() {
               therapies.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              Currently the project is working in partnership with{" "}
+              The project is partnering with{" "}
               <a
                 href="http://www.stcuthmanswhitehawk.org/"
                 target="_blank"
@@ -32,7 +32,7 @@ export default function About() {
               >
                 St Cuthman’s Church
               </a>{" "}
-              in Whitehawk on Thursdays and{" "}
+              and sponsored by{" "}
               <a
                 href="http://www.stcuthmanswhitehawk.org/"
                 target="_blank"
@@ -41,12 +41,12 @@ export default function About() {
               >
                 St Richard's Church
               </a>{" "}
-              in Hollingdean on Monday mornings. Currently, the project is
-              partnering with in Whitehawk, and sits within the existing
-              services which include befriending, debt advice and food supplies.
+              and private donations. The counselling sits within the existing
+              services that include befriending, debt advice and food supplies.{" "}
             </li>
+
             <li className="text-1xl mb-8 ml-4">
-              Qualified counsellors
+              Qualified counsellors{" "}
               <a
                 href="https://gillsnowcounselling.co.uk/"
                 target="_blank"
@@ -65,9 +65,8 @@ export default function About() {
               >
                 Pat Hide{" "}
               </a>{" "}
-              currently provide sessions which run to coincide with other
-              community services provided at these venues such as foodbanks,
-              debt advice and the community cafés.
+              provide sessions which run to coincide with the community cafe
+              times.
             </li>
             <li className="text-1xl mb-8 ml-4">
               Please use the{" "}
@@ -77,8 +76,8 @@ export default function About() {
               >
                 Contact page
               </a>{" "}
-              if you would like to discuss accessing counselling support or if
-              you would like to get involved.
+              if you would like to discuss accessing counselling, get involved
+              or donate.
             </li>
           </div>
         </div>
