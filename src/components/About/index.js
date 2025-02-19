@@ -18,10 +18,11 @@ export default function About() {
           </span>
           <div className="lg:ml-24">
             <li className="text-1xl mb-8 ml-4">
-              Community Counselling Brighton aims to offer counselling to people
-              who would otherwise not be able to have access to talking
-              therapies.
+              Community Counselling Brighton CIC (15754120) aims to offer
+              counselling to people who would otherwise not be able to have
+              access to talking therapies.
             </li>
+
             <li className="text-1xl mb-8 ml-4">
               The project is partnering with{" "}
               <a
@@ -32,41 +33,13 @@ export default function About() {
               >
                 St Cuthman’s Church
               </a>{" "}
-              and sponsored by{" "}
-              <a
-                href="http://www.stcuthmanswhitehawk.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 font-semibold cursor-pointer"
-              >
-                St Richard's Church
-              </a>{" "}
-              and private donations. The counselling sits within the existing
-              services that include befriending, debt advice and food supplies.{" "}
+              . The counselling sits within the existing services that include
+              befriending, debt advice and food supplies.{" "}
             </li>
 
             <li className="text-1xl mb-8 ml-4">
-              Qualified counsellors{" "}
-              <a
-                href="https://gillsnowcounselling.co.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 font-semibold cursor-pointer"
-              >
-                {" "}
-                Gill Dakin
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://Patriciahide.co.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 font-semibold cursor-pointer"
-              >
-                Pat Hide{" "}
-              </a>{" "}
-              provide sessions which run to coincide with the community cafe
-              times.
+              Qualified counsellors provide sessions which run to coincide with
+              the community cafe times.
             </li>
             <li className="text-1xl mb-8 ml-4">
               Please use the{" "}

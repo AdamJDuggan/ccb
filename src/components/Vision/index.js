@@ -20,9 +20,9 @@ export default function Vision() {
         <p className="text-2xl mb-8 text-left">
           Our goal is to develop a network of counselling services across
           Brighton & Hove. We will be working with food-banks to offer free and
-          low-cost therapies. Starting in Whitehawk and Hollingdean, our goal is
-          to partner with local services to deliver group work programs,
-          workshops and 1:1 counselling for all ages.
+          low-cost therapies. Starting in Whitehawk, our goal is to partner with
+          local services to deliver group work programs, workshops and 1:1
+          counselling for all ages.
         </p>
         <p className="text-2xl mb-8 text-left">
           If you have any questions or would like to be involved in donating,

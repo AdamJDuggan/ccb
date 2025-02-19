@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav
       className="text-sm md:text-base 
     bg-blue-500 text-white font-semibold sticky top-0 
-    flex align-center justify-between p-4"
+    flex items-center justify-between p-4"
     >
       <a
         href="#landing"
@@ -20,27 +20,9 @@ export default function Navbar() {
       >
         CCB
       </a>
-
-      <ul className="py-1">
-        <a className="ml-3 hover:text-gray-200 hover:underline" href="#about">
-          About
-        </a>
-        <a className="ml-3 hover:text-gray-200 hover:underline" href="#Team">
-          Team
-        </a>
-        <a
-          className="ml-3 hover:text-gray-200 hover:underline"
-          href="#sessions"
-        >
-          Sessions
-        </a>
-        <a className="ml-3 hover:text-gray-200 hover:underline" href="#vision">
-          Vision
-        </a>
-        <a className="ml-3 hover:text-gray-200 hover:underline" href="#contact">
-          Contact
-        </a>
-      </ul>
+      <a className="ml-3 hover:text-gray-200 hover:underline" href="#contact">
+        Contact
+      </a>
     </nav>
   );
 }

@@ -9,7 +9,7 @@ export default function Landing() {
       id="landing"
       className="bg-bottom bg-fixed bg-no-repeat md:bg-right bg-cover relative flex items-center justify-center py-20 px-6"
     >
-      <div className="max-w-7xl text-left header-content">
+      <div className="max-w-7xl text-center header-content">
         <h1 className="font-bold text-5xl md:text-6xl mb-6 text-white">
           Community Counselling Brighton
         </h1>

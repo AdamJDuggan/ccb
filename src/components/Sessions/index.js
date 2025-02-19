@@ -16,11 +16,11 @@ export default function Sessions() {
           <div className="lg:ml-12">
             <li className="text-1xl mb-8 ml-4">
               We provide up to 20, weekly, 50-minute counselling sessions to
-              Whitehawk and Hollingdean foodbank clients who are 18+ years old.
+              Whitehawk Foodbank clients who are 18+ years old.
             </li>
             <li className="text-1xl mb-8 ml-4">
-              The counselling sessions take place on the day the Whitehawk and
-              Hollingdean Community cafés and foodbanks run.
+              The counselling sessions take place on the day the Whitehawk
+              Community cafe and foodbank runs.
             </li>
             <li className="text-1xl mb-8 ml-4">
               The approach is collaborative between therapist and client,

@@ -3,8 +3,6 @@ import React from "react";
 // Assets
 import Gill from "../../images/gill.webp";
 import GillReg from "../../images/gill-reg.webp";
-import Pat from "../../images/pat.webp";
-import PatReg from "../../images/pat-reg.webp";
 
 export default function Team() {
   return (
@@ -13,18 +11,22 @@ export default function Team() {
       className="flex align-center justify-center py-20 px-6 bg-gray-100"
     >
       <div className="max-w-7xl text-left">
-        <h2 className="text-5xl text-gray-700 font-bold mb-20">Our Team</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-          {/* Card 1*/}
-          <div className="rounded border-2 bg-white p-4 flex flex-col md:flex-row lg:flex-col">
+        <h2 className="text-5xl text-gray-700 font-bold mb-20">
+          Lead Therapist
+        </h2>
+        <div className="flex justify-center">
+          <div
+            style={{ maxWidth: 600 }}
+            className="rounded border-2 bg-white p-4 flex flex-col md:flex-row lg:flex-col mb-20"
+          >
             <img
               src={Gill}
               alt="Counsellor Gill Snow"
               className="rounded w-72 h-52 m-auto"
             />
             <div className="mt-12 md:mt-0 lg:mt-12 md:ml-12 lg:ml-0">
-              <h3 className="text-2xl text-gray-600 mb-1 font-semibold w-1/2">
-                Gill Dakin
+              <h3 className="text-2xl text-gray-600 mb-1 font-semibold">
+                Gill Dakin (MBACP Accred).
               </h3>
               <h5 className="mb-6 text-blue-500 font-semibold">
                 Co-founder and Counsellor
@@ -45,39 +47,6 @@ export default function Team() {
                 alt="BACP registration"
               >
                 <img src={GillReg} className="w-36 mt-12" alt="Gill" />
-              </a>
-            </div>
-          </div>
-          {/* Card 2 */}
-          <div className="rounded border-2 bg-white p-4 flex flex-col md:flex-row lg:flex-col">
-            <img
-              src={Pat}
-              alt="Counsellor Gill Snow"
-              className="rounded  h-52 m-auto"
-            />
-            <div className="mt-12 md:mt-0 lg:mt-12 md:ml-12 lg:ml-0">
-              <h3 className="text-2xl text-gray-600 mb-1 font-semibold w-1/2">
-                Pat Hide
-              </h3>
-              <h5 className="mb-6 text-blue-500 font-semibold">
-                Co-founder and Counsellor
-              </h5>
-              <p className="mb-6">
-                People seek counselling for a wide range of reasons; whatever
-                your reasons, as a Humanistic counsellor I aim to help you
-                explore and gain an understanding of the issues that you bring
-                to counselling. I offer a warm, empathic, and non-judgemental
-                acceptance to all allowing a therapeutic and trusting
-                relationship to develop enabling you to heal and gain a sense of
-                self.
-              </p>
-              <a
-                href="https://www.bacp.co.uk/search/Register?q=383543"
-                target="_blank"
-                rel="noopener noreferrer"
-                alt="BACP registration"
-              >
-                <img src={PatReg} className="w-36 mt-12" alt="Pat" />
               </a>
             </div>
           </div>
