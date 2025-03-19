@@ -12,7 +12,7 @@ export default function About() {
       <div className="max-w-6xl text-left">
         <h2 className="text-5xl text-gray-700 font-bold mb-20">About</h2>
 
-        <div className="about-content flex flex-col items-center  lg:flex-row lg:items-start">
+        <div className="about-content flex flex-col items-center lg:flex-row">
           <span className="mb-16 lg:mb-0">
             <img src={Logo} className="w-96 lg:w-auto" alt="Logo" />
           </span>
@@ -21,6 +21,11 @@ export default function About() {
               Community Counselling Brighton CIC (15754120) aims to offer
               counselling to people who would otherwise not be able to have
               access to talking therapies.
+            </li>
+            <li className="text-1xl mb-8 ml-4">
+              At this time we offer free counselling to Whitehawk Foodbank
+              clients, that self-refer, or referred by our partner
+              organisations.
             </li>
 
             <li className="text-1xl mb-8 ml-4">
