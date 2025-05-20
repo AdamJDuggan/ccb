@@ -15,8 +15,7 @@ export default function Sessions() {
           </span>
           <div className="lg:ml-12">
             <li className="text-1xl mb-8 ml-4">
-              We provide up to 20, weekly, 50-minute counselling sessions to
-              Whitehawk Foodbank clients who are 18+ years old.
+              Clients of the Foodbank, who are over 18, are offered up to 20 sessions of counselling. 
             </li>
             <li className="text-1xl mb-8 ml-4">
               The counselling sessions take place on the day the Whitehawk
