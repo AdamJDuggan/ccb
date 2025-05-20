@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.960017fb.chunk.css",
-  "main.js": "/static/js/main.3ab74afe.chunk.js",
-  "main.js.map": "/static/js/main.3ab74afe.chunk.js.map",
+  "main.css": "/static/css/main.81659ac6.chunk.css",
+  "main.js": "/static/js/main.98902b53.chunk.js",
+  "main.js.map": "/static/js/main.98902b53.chunk.js.map",
   "static/js/1.31088909.chunk.js": "/static/js/1.31088909.chunk.js",
   "static/js/1.31088909.chunk.js.map": "/static/js/1.31088909.chunk.js.map",
   "static/js/2.f0523e7f.chunk.js": "/static/js/2.f0523e7f.chunk.js",
@@ -13,8 +13,8 @@
   "static/media/gill.webp": "/static/media/gill.d853fdd6.webp",
   "static/media/gill-reg.webp": "/static/media/gill-reg.5301a570.webp",
   "static/media/index.module.css": "/static/media/sunset2.9ca53c4a.jpg",
-  "static/css/main.960017fb.chunk.css.map": "/static/css/main.960017fb.chunk.css.map",
+  "static/css/main.81659ac6.chunk.css.map": "/static/css/main.81659ac6.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.2a79ee6a9f0c2671d0012faea4ccc7fe.js": "/precache-manifest.2a79ee6a9f0c2671d0012faea4ccc7fe.js",
+  "precache-manifest.4117de7b5bb0dbb3adc40a6ca5fa26c4.js": "/precache-manifest.4117de7b5bb0dbb3adc40a6ca5fa26c4.js",
   "service-worker.js": "/service-worker.js"
 }
